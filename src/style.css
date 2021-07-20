@@ -1,0 +1,223 @@
+/* ----------------- fuentes -------------------- */
+@font-face {
+  font-family: 'Cocogoose1';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Italic-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose2';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Light_Italic-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose3';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Light-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose4';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Semilight_Italic-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose5';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Semilight-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose6';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Thin_Italic-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose7';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Thin-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose8';
+  src: url('./Assets/Fonts/Cocogoose_Pro_UltraLight_Italic-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose9';
+  src: url('./Assets/Fonts/Cocogoose_Pro_Ultralight-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Cocogoose10';
+  src: url('./Assets/Fonts/Cocogoose_Pro-trial.ttf');
+}
+
+@font-face {
+  font-family: 'Lato1';
+  src: url('./Assets/Fonts/Lato-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Lato2';
+  src: url('./Assets/Fonts/Lato-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato3';
+  src: url('./Assets/Fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Lato4';
+  src: url('./Assets/Fonts/Lato-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato5';
+  src: url('./Assets/Fonts/Lato-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato6';
+  src: url('./Assets/Fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Lato7';
+  src: url('./Assets/Fonts/Lato-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Lato8';
+  src: url('./Assets/Fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato9';
+  src: url('./Assets/Fonts/Lato-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Lato10';
+  src: url('./Assets/Fonts/Lato-ThinItalic.ttf');
+}
+
+.task-app {
+  box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  left: 30vw;
+  border-radius: 10px;
+}
+
+.to-do-title {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+}
+
+.to-do-title-text {
+  font-family: "Lato1", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 15vw;
+  width: 20vw;
+}
+
+.to-do-title-img {
+  width: 20px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
+.to-do-list {
+  padding: 0;
+}
+
+.newTaskInput {
+  font-family: "Lato6", serif;
+  font-size: 14px;
+  height: 30px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.taskItem {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  border-bottom: solid;
+  border-bottom-width: 0.5px;
+  border-top: solid;
+  border-color: rgb(228, 228, 228);
+  border-top-width: 0.5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.taskCheckBox {
+  width: 15px;
+  height: 15px;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.taskCheckBox:checked {
+  background-color: green;
+  border: 1px solid blue;
+}
+
+.taskText {
+  font-family: "Lato6", serif;
+  font-size: 15px;
+  width: 34vw;
+  height: fit-content;
+  margin: 0;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  border-style: none;
+}
+
+.dragIcon {
+  width: 3px;
+  height: 13px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 14px;
+  cursor: move;
+}
+
+.eraseIcon {
+  width: 15px;
+  height: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+.clearButton {
+  color: rgb(138, 138, 138);
+  font-family: "Lato6", serif;
+  font-size: 14px;
+  height: 40px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  border-width: 0.5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.clearButton:hover {
+  background-color: rgb(225, 225, 225);
+}
